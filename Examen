@@ -1,1 +1,28 @@
+package Examen;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+public class Exa {
+    public static void main(String[] args){
+        Scanner leer = new Scanner(System.in);
+        List first = new ArrayList();
+        
+        
+        System.out.println("*****Menú*****");
+        System.out.println("1.- Suma");
+        System.out.println("2.- Resta");
+        System.out.println("3.- Multiplicación");
+        System.out.println("4.- Salir");
+        
+        int opc = leer.nextInt();
+        switch(opc){
+            case 1:
+                first.add("Ingrse dato 1");
+                System.out.println(first.get(0));
+                System.out.println("");
+                
+        }
+    }
+}
 
